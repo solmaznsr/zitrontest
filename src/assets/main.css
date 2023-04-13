@@ -1,0 +1,267 @@
+@import './mystyle.css';
+
+@font-face {
+  font-family: "Vazir";
+  src: url('./vazir.woff2');
+}
+
+* {
+  font-family: 'Vazir', cursive;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  background-color: #eee;
+  height: 100%;
+  padding: 3rem 8rem;
+  direction: rtl;
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: .8rem;
+  }
+}
+
+a,
+.primary {
+  text-decoration: none;
+  color: #c02c3d;
+  transition: 0.4s;
+}
+
+.text-black {
+  color: #111 !important;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .5rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 3px 5px 8px #d3d3d3;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 75%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.pa-sm {
+  padding: .5rem;
+}
+
+.pa-md {
+  padding: 1rem;
+}
+
+.pa-lg {
+  padding: 1.5rem;
+}
+
+.px-sm {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.px-md {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-lg {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-sm {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.py-md {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-lg {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.ma-xs {
+  margin: .2rem;
+}
+
+.ma-sm {
+  margin: .5rem;
+}
+
+.ma-md {
+  margin: 1rem;
+}
+
+.ma-lg {
+  margin: 1.5rem;
+}
+
+.mx-sm {
+  margin-left: .5rem;
+  padding-right: .5rem;
+}
+
+.mx-md {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-lg {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-sm {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.my-md {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-lg {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.w-100 {
+  width: 100vw;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+@media (max-width: 1440px) {
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
+
+@media (max-width: 768px) {
+  .col-4 {
+    width: 40%;
+  }
+  .col-8 {
+    width: 60%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
+
+@media (max-width: 425px) {
+  .col-4 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
